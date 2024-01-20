@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "quartoTest"
+  author: "Norah Jones"
+  date: "2024/1/18"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+    - week1.qmd  
+    - Week2XRG.qmd 
+    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
